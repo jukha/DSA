@@ -63,3 +63,5 @@ const s = new Solution();
 const res = s.isValidSudoku(board);
 
 console.log(res);
+
+export {}
