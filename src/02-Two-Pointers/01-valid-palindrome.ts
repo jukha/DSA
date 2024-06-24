@@ -61,7 +61,6 @@ class Solution {
     return true;
   }
 }
-
 console.log("?".charCodeAt(0));
 console.log("a".charCodeAt(0));
 console.log("z".charCodeAt(0));
@@ -94,3 +93,5 @@ console.log(res);
 // aba?
 
 //  ?ab?ba?
+
+export {}
