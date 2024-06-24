@@ -79,8 +79,13 @@ nums = [
 
 nums = [3, 1, 2];
 
+nums = [0]
+
 const res = s.longestConsecutive(nums);
 
 const r = s.optimalSolution(nums);
 
 console.log(r);
+
+
+export {}

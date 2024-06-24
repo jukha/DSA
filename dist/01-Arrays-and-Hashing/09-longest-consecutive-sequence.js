@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     longestConsecutive(nums) {
         const onlyZerosInArray = nums.filter((value) => Boolean(value)).length === 0;
@@ -65,6 +66,7 @@ nums = [
     -2,
 ];
 nums = [3, 1, 2];
+nums = [0];
 const res = s.longestConsecutive(nums);
 const r = s.optimalSolution(nums);
 console.log(r);
