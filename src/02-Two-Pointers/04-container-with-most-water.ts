@@ -45,3 +45,5 @@ let maxAmount = s.maxArea(heights);
 maxAmount = s.bruteForce(heights);
 
 console.log(maxAmount);
+
+export {}
