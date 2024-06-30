@@ -7,7 +7,6 @@ class Solution {
         openClose.set(")", "(");
         openClose.set("]", "[");
         openClose.set("}", "{");
-        // ([{}])
         for (let i = 0; i < s.length; i++) {
             if (openClose.has(s[i])) {
                 let pop = stack.pop();
