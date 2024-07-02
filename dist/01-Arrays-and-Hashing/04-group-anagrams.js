@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     arrayToString(arr) {
         return JSON.stringify(arr);
@@ -27,3 +25,4 @@ class Solution {
         return finalRes;
     }
 }
+export {};

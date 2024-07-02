@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     hasDuplicate(nums) {
         const set = new Set();
@@ -12,3 +10,4 @@ class Solution {
         return false;
     }
 }
+export {};

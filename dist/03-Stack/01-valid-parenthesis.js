@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     isValid(s) {
         let stack = [];
@@ -26,3 +24,4 @@ let sol = new Solution();
 let s = ")";
 let res = sol.isValid(s);
 console.log(res);
+export {};

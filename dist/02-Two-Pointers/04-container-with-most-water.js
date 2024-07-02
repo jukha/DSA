@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     maxArea(height) {
         // heights.sort((a, b) => a -)
@@ -36,3 +34,4 @@ heights = [1, 7, 2, 5, 12, 3, 500, 500, 7, 8, 4, 7, 3, 6];
 let maxAmount = s.maxArea(heights);
 maxAmount = s.bruteForce(heights);
 console.log(maxAmount);
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     isPalindrome(s) {
         let sanatizedString = "";
@@ -70,3 +68,4 @@ console.log("_".charCodeAt(0));
 // const res = sol.isPalindrome(s);
 const res = sol.test(s);
 console.log(res);
+export {};

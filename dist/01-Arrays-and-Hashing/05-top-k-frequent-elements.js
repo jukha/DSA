@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     /**
      * @param {number[]} nums
@@ -24,3 +22,4 @@ class Solution {
         return kFrequentEls;
     }
 }
+export {};

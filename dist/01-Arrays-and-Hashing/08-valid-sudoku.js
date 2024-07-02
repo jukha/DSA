@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     isValidSudoku(board) {
         const boardLength = board.length;
@@ -60,3 +58,4 @@ let board = [
 const s = new Solution();
 const res = s.isValidSudoku(board);
 console.log(res);
+export {};

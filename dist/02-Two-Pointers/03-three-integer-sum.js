@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     threeSum(nums) {
         nums.sort((a, b) => a - b);
@@ -33,3 +31,4 @@ let nums = [-1, 0, 1, 2, -1, -4]; // Output: [[-1,-1,2],[-1,0,1]]
 nums = [-1, 0, 1, 2, -1, -4, -2, -3, 3, 0, 4];
 const res = new Solution().threeSum(nums);
 console.log(res);
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     twoSum(numbers, target) {
         for (let i = 0; i < numbers.length; i++) {
@@ -40,6 +38,7 @@ target = -1;
 let res = s.twoSum(numbers, target);
 res = s.optimalSolution(numbers, target);
 console.log(res);
+export {};
 /*
   numbers = [2,7,11,15], target = 9
    [2,3,4]

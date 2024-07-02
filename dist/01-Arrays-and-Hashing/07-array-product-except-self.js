@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     /**
      * @param {number[]} nums
@@ -107,3 +105,4 @@ nums = [-1, 0, 1, 2, 3];
 nums = [2, 3, 5, 0];
 const res = s.optimalSolution(nums);
 console.log(res);
+export {};

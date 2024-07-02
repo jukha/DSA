@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class MinStack {
     constructor() {
         this.stack = [];
@@ -39,3 +37,4 @@ var param_3 = obj.top();
 var param_4 = obj.getMin();
 console.log(param_3);
 console.log(param_4);
+export {};

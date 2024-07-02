@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function evalRPN(tokens) {
     const stack = [];
     for (let i = 0; i < tokens.length; i++) {
@@ -37,3 +35,4 @@ let tokens = ["2", "1", "+", "3", "*"];
 tokens = ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"];
 let res = evalRPN(tokens);
 console.log(res);
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     isAnagram(s, t) {
         if (s.length !== t.length)
@@ -31,3 +29,4 @@ class Solution {
         return true;
     }
 }
+export {};

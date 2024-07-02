@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     twoSum(nums, target) {
         const idxMap = new Map();
@@ -16,3 +14,4 @@ class Solution {
         return targetIndices;
     }
 }
+export {};

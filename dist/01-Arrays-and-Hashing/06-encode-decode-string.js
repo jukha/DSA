@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Solution {
     constructor() {
         this.delimiter = "#";
@@ -31,3 +29,4 @@ class Solution {
         return decodedStrsArr;
     }
 }
+export {};
